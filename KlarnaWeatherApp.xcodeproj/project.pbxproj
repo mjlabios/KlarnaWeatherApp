@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B067F4237955F1004C6E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B067F3237955F1004C6E73 /* AppDelegate.swift */; };
+		12B067F6237955F1004C6E73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B067F5237955F1004C6E73 /* SceneDelegate.swift */; };
+		12B067F8237955F1004C6E73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B067F7237955F1004C6E73 /* ContentView.swift */; };
+		12B067FA237955F3004C6E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B067F9237955F3004C6E73 /* Assets.xcassets */; };
+		12B067FD237955F3004C6E73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B067FC237955F3004C6E73 /* Preview Assets.xcassets */; };
+		12B06800237955F3004C6E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B067FE237955F3004C6E73 /* LaunchScreen.storyboard */; };
+		12B0680B237955F3004C6E73 /* KlarnaWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0680A237955F3004C6E73 /* KlarnaWeatherAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12B06807237955F3004C6E73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B067E8237955F1004C6E73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B067EF237955F1004C6E73;
+			remoteInfo = KlarnaWeatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B067F0237955F1004C6E73 /* KlarnaWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlarnaWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B067F3237955F1004C6E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12B067F5237955F1004C6E73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		12B067F7237955F1004C6E73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12B067F9237955F3004C6E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12B067FC237955F3004C6E73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12B067FF237955F3004C6E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12B06801237955F3004C6E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B06806237955F3004C6E73 /* KlarnaWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlarnaWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B0680A237955F3004C6E73 /* KlarnaWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaWeatherAppTests.swift; sourceTree = "<group>"; };
+		12B0680C237955F3004C6E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12B067ED237955F1004C6E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B06803237955F3004C6E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12B067E7237955F1004C6E73 = {
+			isa = PBXGroup;
+			children = (
+				12B067F2237955F1004C6E73 /* KlarnaWeatherApp */,
+				12B06809237955F3004C6E73 /* KlarnaWeatherAppTests */,
+				12B067F1237955F1004C6E73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12B067F1237955F1004C6E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12B067F0237955F1004C6E73 /* KlarnaWeatherApp.app */,
+				12B06806237955F3004C6E73 /* KlarnaWeatherAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12B067F2237955F1004C6E73 /* KlarnaWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				12B067F3237955F1004C6E73 /* AppDelegate.swift */,
+				12B067F5237955F1004C6E73 /* SceneDelegate.swift */,
+				12B067F7237955F1004C6E73 /* ContentView.swift */,
+				12B067F9237955F3004C6E73 /* Assets.xcassets */,
+				12B067FE237955F3004C6E73 /* LaunchScreen.storyboard */,
+				12B06801237955F3004C6E73 /* Info.plist */,
+				12B067FB237955F3004C6E73 /* Preview Content */,
+			);
+			path = KlarnaWeatherApp;
+			sourceTree = "<group>";
+		};
+		12B067FB237955F3004C6E73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12B067FC237955F3004C6E73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12B06809237955F3004C6E73 /* KlarnaWeatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				12B0680A237955F3004C6E73 /* KlarnaWeatherAppTests.swift */,
+				12B0680C237955F3004C6E73 /* Info.plist */,
+			);
+			path = KlarnaWeatherAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12B067EF237955F1004C6E73 /* KlarnaWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B0680F237955F3004C6E73 /* Build configuration list for PBXNativeTarget "KlarnaWeatherApp" */;
+			buildPhases = (
+				12B067EC237955F1004C6E73 /* Sources */,
+				12B067ED237955F1004C6E73 /* Frameworks */,
+				12B067EE237955F1004C6E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KlarnaWeatherApp;
+			productName = KlarnaWeatherApp;
+			productReference = 12B067F0237955F1004C6E73 /* KlarnaWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12B06805237955F3004C6E73 /* KlarnaWeatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B06812237955F3004C6E73 /* Build configuration list for PBXNativeTarget "KlarnaWeatherAppTests" */;
+			buildPhases = (
+				12B06802237955F3004C6E73 /* Sources */,
+				12B06803237955F3004C6E73 /* Frameworks */,
+				12B06804237955F3004C6E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B06808237955F3004C6E73 /* PBXTargetDependency */,
+			);
+			name = KlarnaWeatherAppTests;
+			productName = KlarnaWeatherAppTests;
+			productReference = 12B06806237955F3004C6E73 /* KlarnaWeatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12B067E8237955F1004C6E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Mark Labios";
+				TargetAttributes = {
+					12B067EF237955F1004C6E73 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					12B06805237955F3004C6E73 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 12B067EF237955F1004C6E73;
+					};
+				};
+			};
+			buildConfigurationList = 12B067EB237955F1004C6E73 /* Build configuration list for PBXProject "KlarnaWeatherApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12B067E7237955F1004C6E73;
+			productRefGroup = 12B067F1237955F1004C6E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12B067EF237955F1004C6E73 /* KlarnaWeatherApp */,
+				12B06805237955F3004C6E73 /* KlarnaWeatherAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12B067EE237955F1004C6E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B06800237955F3004C6E73 /* LaunchScreen.storyboard in Resources */,
+				12B067FD237955F3004C6E73 /* Preview Assets.xcassets in Resources */,
+				12B067FA237955F3004C6E73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B06804237955F3004C6E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12B067EC237955F1004C6E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B067F4237955F1004C6E73 /* AppDelegate.swift in Sources */,
+				12B067F6237955F1004C6E73 /* SceneDelegate.swift in Sources */,
+				12B067F8237955F1004C6E73 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B06802237955F3004C6E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B0680B237955F3004C6E73 /* KlarnaWeatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B06808237955F3004C6E73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B067EF237955F1004C6E73 /* KlarnaWeatherApp */;
+			targetProxy = 12B06807237955F3004C6E73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12B067FE237955F3004C6E73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12B067FF237955F3004C6E73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12B0680D237955F3004C6E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12B0680E237955F3004C6E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12B06810237955F3004C6E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KlarnaWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6699L7Z568;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KlarnaWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjlabios.KlarnaWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12B06811237955F3004C6E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KlarnaWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6699L7Z568;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KlarnaWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjlabios.KlarnaWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12B06813237955F3004C6E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6699L7Z568;
+				INFOPLIST_FILE = KlarnaWeatherAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjlabios.KlarnaWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlarnaWeatherApp.app/KlarnaWeatherApp";
+			};
+			name = Debug;
+		};
+		12B06814237955F3004C6E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6699L7Z568;
+				INFOPLIST_FILE = KlarnaWeatherAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjlabios.KlarnaWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlarnaWeatherApp.app/KlarnaWeatherApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B067EB237955F1004C6E73 /* Build configuration list for PBXProject "KlarnaWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B0680D237955F3004C6E73 /* Debug */,
+				12B0680E237955F3004C6E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B0680F237955F3004C6E73 /* Build configuration list for PBXNativeTarget "KlarnaWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B06810237955F3004C6E73 /* Debug */,
+				12B06811237955F3004C6E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B06812237955F3004C6E73 /* Build configuration list for PBXNativeTarget "KlarnaWeatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B06813237955F3004C6E73 /* Debug */,
+				12B06814237955F3004C6E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12B067E8237955F1004C6E73 /* Project object */;
+}
