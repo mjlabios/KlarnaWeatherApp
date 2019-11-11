@@ -14,6 +14,13 @@
 		12B067FD237955F3004C6E73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B067FC237955F3004C6E73 /* Preview Assets.xcassets */; };
 		12B06800237955F3004C6E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B067FE237955F3004C6E73 /* LaunchScreen.storyboard */; };
 		12B0680B237955F3004C6E73 /* KlarnaWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0680A237955F3004C6E73 /* KlarnaWeatherAppTests.swift */; };
+		12B0681823795651004C6E73 /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0681723795651004C6E73 /* TemperatureView.swift */; };
+		12B0681A237956CD004C6E73 /* WeatherLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B06819237956CD004C6E73 /* WeatherLabel.swift */; };
+		12B0681D23796462004C6E73 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0681C23796462004C6E73 /* WeatherData.swift */; };
+		12B0681F23796485004C6E73 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0681E23796485004C6E73 /* WeatherModel.swift */; };
+		12B06821237964E2004C6E73 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B06820237964E2004C6E73 /* UserLocation.swift */; };
+		12B0682323796505004C6E73 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0682223796505004C6E73 /* WeatherManager.swift */; };
+		12B06825237978A3004C6E73 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 12B06824237978A3004C6E73 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,13 @@
 		12B06806237955F3004C6E73 /* KlarnaWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlarnaWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B0680A237955F3004C6E73 /* KlarnaWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaWeatherAppTests.swift; sourceTree = "<group>"; };
 		12B0680C237955F3004C6E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B0681723795651004C6E73 /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
+		12B06819237956CD004C6E73 /* WeatherLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLabel.swift; sourceTree = "<group>"; };
+		12B0681C23796462004C6E73 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		12B0681E23796485004C6E73 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		12B06820237964E2004C6E73 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		12B0682223796505004C6E73 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		12B06824237978A3004C6E73 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 		12B067E7237955F1004C6E73 = {
 			isa = PBXGroup;
 			children = (
+				12B06824237978A3004C6E73 /* readme.md */,
 				12B067F2237955F1004C6E73 /* KlarnaWeatherApp */,
 				12B06809237955F3004C6E73 /* KlarnaWeatherAppTests */,
 				12B067F1237955F1004C6E73 /* Products */,
@@ -79,9 +94,11 @@
 		12B067F2237955F1004C6E73 /* KlarnaWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				12B068152379560A004C6E73 /* Models */,
+				12B0681623795613004C6E73 /* Views */,
+				12B0681B2379642D004C6E73 /* Services */,
 				12B067F3237955F1004C6E73 /* AppDelegate.swift */,
 				12B067F5237955F1004C6E73 /* SceneDelegate.swift */,
-				12B067F7237955F1004C6E73 /* ContentView.swift */,
 				12B067F9237955F3004C6E73 /* Assets.xcassets */,
 				12B067FE237955F3004C6E73 /* LaunchScreen.storyboard */,
 				12B06801237955F3004C6E73 /* Info.plist */,
@@ -105,6 +122,34 @@
 				12B0680C237955F3004C6E73 /* Info.plist */,
 			);
 			path = KlarnaWeatherAppTests;
+			sourceTree = "<group>";
+		};
+		12B068152379560A004C6E73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12B0681C23796462004C6E73 /* WeatherData.swift */,
+				12B0681E23796485004C6E73 /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12B0681623795613004C6E73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12B067F7237955F1004C6E73 /* ContentView.swift */,
+				12B0681723795651004C6E73 /* TemperatureView.swift */,
+				12B06819237956CD004C6E73 /* WeatherLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12B0681B2379642D004C6E73 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12B0682223796505004C6E73 /* WeatherManager.swift */,
+				12B06820237964E2004C6E73 /* UserLocation.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +235,7 @@
 			files = (
 				12B06800237955F3004C6E73 /* LaunchScreen.storyboard in Resources */,
 				12B067FD237955F3004C6E73 /* Preview Assets.xcassets in Resources */,
+				12B06825237978A3004C6E73 /* readme.md in Resources */,
 				12B067FA237955F3004C6E73 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +255,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B067F4237955F1004C6E73 /* AppDelegate.swift in Sources */,
+				12B0681A237956CD004C6E73 /* WeatherLabel.swift in Sources */,
+				12B0681823795651004C6E73 /* TemperatureView.swift in Sources */,
+				12B0681F23796485004C6E73 /* WeatherModel.swift in Sources */,
 				12B067F6237955F1004C6E73 /* SceneDelegate.swift in Sources */,
+				12B06821237964E2004C6E73 /* UserLocation.swift in Sources */,
+				12B0682323796505004C6E73 /* WeatherManager.swift in Sources */,
+				12B0681D23796462004C6E73 /* WeatherData.swift in Sources */,
 				12B067F8237955F1004C6E73 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +424,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mjlabios.KlarnaWeatherApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KlarnaWeatherApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,7 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mjlabios.KlarnaWeatherApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KlarnaWeatherApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
